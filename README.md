@@ -1,3 +1,18 @@
+C#实现DNS解析服务和智能DNS服务 原创
+张善友2022-09-21 09:53:38博主文章分类：.net framework
+文章标签.netc#控件文章分类Linux系统/运维阅读数82
+
+C#实现DNS解析服务有一个开源项目ARSoft.Tools.Net, ARSoft.Tools.Net是一个非常强大的开源DNS控件库，包含.Net SPF validation, SenderID validation以及DNS Client、DNS Server接口。使用该接口可轻松实现DNS客户请求端及服务器解析端。项目地址:​ ​http://arsofttoolsnet.codeplex.com/​​​。用法可以参考这篇文章《​ ​【原创】C#编程实现DNS Client和Server​​》。
+
+Codeplex上还有一个HDDevWebTeam开发的一款智能DNS服务器，实现不同网络运行商用户请求同一个域名地址 得到不同ip解析结果功能，从而使不同网络运行商用户的访问得到足够优秀的网络体验. 项目地址​ ​https://ladns.codeplex.com/​​，这个项目也用到了AlexReinert 的 ARSoft.Tools.Net项目。
+
+​ ​
+
+C#实现DNS解析服务和智能DNS服务_控件
+
+ 
+
+
 # Project Description
 This project contains a complete managed .Net SPF validation, SenderID validation and a dns client and dns server implementation written in C#.
 
